@@ -11,9 +11,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout
-              use: actions/checkout@master
+              uses: actions/checkout@master
             - name: setup python
-              use: actions/setup-python@v2
+              uses: actions/setup-python@v2
               with:
                 python-version: '3.x'
                 architecture: 'x64'
